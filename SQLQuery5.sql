@@ -1,0 +1,10 @@
+SELECT TOP (1000) [DatabaseLogID]
+      ,[PostTime]
+      ,[DatabaseUser]
+      ,[Event]
+      ,[Schema]
+      ,[Object]
+      ,[TSQL]
+      ,[XmlEvent]
+  FROM [AdventureWorksDW2022].[dbo].[DatabaseLog]
+
